@@ -1,4 +1,4 @@
-# stage_ecg
+# ECG_Classification
 This repository purpose is to provide a code for the study of Electrocardiogramms signals. We use Convolutional Dictionary Learning as well as other signal representations: raw data, signal peaks, a set of basic signal features, and special indicators based on the wavelet transform and autoregression. Then we apply a set of classifier from scikit-learn to evaluate the representations performances.        
 The Atomes.ipynb file contains the necessary code to perform the CDL on the ECGs signals.    
 The Classifier.ipynb file contains the code used to calculate the other representations and comper all of them using error rate, precision, recall and F1-score    
