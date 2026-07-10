@@ -221,7 +221,8 @@ def Import_Data(Path_data,Path_atome,Sort='classic') :
     d_nsr=mat2['d_nsr']
     
     D=[d_arr,d_chf,d_nsr]
-
+    Z=[z_arr,z_chf,z_nsr]
+    
     X=[]
     for i in range(96) :
         X.append(list(z_arr[0][i])+list(z_arr[1][i])+list(z_arr[2][i]))
@@ -242,7 +243,7 @@ def Import_Data(Path_data,Path_atome,Sort='classic') :
     else :
         raise ValueError("Unsupported arguments for Sort ; the supported arguments are : 'classic', 'chf', 'nsr1', 'nsr2'")
     
-    return X,y,signaux,D
+    return X,y,signaux,D,Z
 
 def Random_Data(x,y,percentage=0.8) :
     """
@@ -354,7 +355,7 @@ def find_peak(signal,seuil=2) :
         j+=1
     return activ
 
-def extract_featurs(signals) : 
+def extract_features(signals) : 
     """
     
 
