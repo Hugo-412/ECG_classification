@@ -6,7 +6,7 @@ The Wavelet.ipynb file is used to calculate the special indicators and their per
 The ECGData.mat file contain the ECGs datas used throughout this study    
 The Atome.mat file contains the result of a pre-executed Atomes.ipynb code    
 
-If you want to use this code we strongly advise use to read the  Etude comparatives des methodes de classification ECG.pdf wich is the corresponding study of this code and contains essential information for comprehension. We provide an english version of this study. However, note that it is only an AI translation of the french version and it has not been verified by man therefore we do not guaranty its accuracy.
+If you want to use this code we strongly advise you to read the  Etude comparatives des methodes de classification ECG.pdf wich is the corresponding study of this code and contains essential information for comprehension. We provide an english version of this study. However, note that it is only an AI translation of the french version and it has not been verified by man therefore we do not guaranty its accuracy.
 Also we advise you to keep the repository architecture to avoid any execution problem.
 
 Please feel free to download, use, complete or share this code any return will be appreciated.    
